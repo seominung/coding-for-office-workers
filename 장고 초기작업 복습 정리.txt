@@ -1,0 +1,13 @@
+pip인스톨&업글 장고인스톨&원하는버전 (여기서 궁금한건 파이썬도 독립환경에서 원하는버전 하는 방법)
+
+프로젝트만들기 mysite (마르코는 sample로 함) & 중첩되는 폴더 햇갈리니까 첫번째폴더 src등으로 바꾸기.
+
+python manege.py migrate & 런서버 해보던말던
+
+python manege.py startapp polls (마르코는 blog로 함)
+
+
+첫번째 views.py를 만짐. (앱을 만들었으니 앱폴더에)
+앱폴더의 urls.py에 ~~~ 
+프로젝트 폴더의 urls.py에 ~~~
+views.py에서 조금 수정

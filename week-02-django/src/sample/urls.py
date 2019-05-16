@@ -17,6 +17,6 @@ from django.conf.urls import include, url
 from django.contrib import admin
 
 urlpatterns = [
-    url(r'^', include('blog.urls')),
+    url(r'^', include('blog.urls')), # 이 부분에서 blog라고 썼던걸 지운 이유는 모르겠다.
     url(r'^admin/', admin.site.urls),
 ]
